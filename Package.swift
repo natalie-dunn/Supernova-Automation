@@ -8,5 +8,13 @@ let package = Package(
   defaultLocalization: "en",
   platforms: [
     .iOS(.v15)
+  ],
+  products: [
+    .library(name: "Supernova-Automation", targets: ["Supernova-Automation"])
+  ],
+  targets: [
+    .target(
+      name: "Supernova-Automation"
+    )
   ]
 )
