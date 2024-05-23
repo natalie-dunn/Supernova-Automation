@@ -50,12 +50,6 @@ public extension Color {
         public let stateHover = Color(.sRGB, red: 7/255, green: 10/255, blue: 13/255, opacity: 0.05) 
         public let statePressed = Color(.sRGB, red: 7/255, green: 10/255, blue: 13/255, opacity: 0.1) 
 
-        /// Background color for items on surface in a pressed state. It uses color.onSurface.primary with opacity5
-        public let stateHover = Color(.sRGB, red: 7/255, green: 10/255, blue: 13/255, opacity: 0.05) 
-
-        /// Background overlay for button in a pressed state.
-        public let statePressed = Color(.sRGB, red: 7/255, green: 10/255, blue: 13/255, opacity: 0.1) 
-
         // static
         public let staticWhite = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
         public let staticBlack = Color(.sRGB, red: 0/255, green: 0/255, blue: 0/255, opacity: 1) 
